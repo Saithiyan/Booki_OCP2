@@ -7,9 +7,10 @@
 		<link rel="normalize" type="text/css" href="normalize.css"/>
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 			  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-		  <title>Booki</title>
+			<title>Booki</title>
 	</head>
 	<body>
+
 		<!-- Header -->
 		<header class="header">
 		<!-- LOGO Booki -->
@@ -32,6 +33,7 @@
 
 		<!-- Main -->
 		<main>
+
 		<!-- Section 1 -->
 			<section>
 				
@@ -46,19 +48,21 @@
 					<form method="post" action="fichier.php">		
 						<input type="search" id="localisation" placeholder="Marseille, France">
 						<input type="submit" value="Rechercher" id="Recherche">
+						<button type="submit" id="icon-loca"><i class="fas fa-search"></i></button>
 					</form>
-
 				</div>
 
 				<!-- Filtres -->
 				<div class="filtres">
 					<h3>Filtres</h3>
-					<div class="filtres-bouton">
-						<div class="filtre-icon">
-							<a href="#"><i class="fas fa-money-bill-wave"></i></a>
+					<a href="#">
+						<div class="filtres-bouton">
+							<div class="filtre-icon">
+								<a href="#"><i class="fas fa-money-bill-wave"></i></a>
+							</div>
+							<p>Économique</p>
 						</div>
-						<p>Économique</p>
-					</div>
+					</a>
 					<div  class="filtres-bouton">
 						<div class="filtre-icon">
 							<a href="#"><i class="fas fa-child"></i></a>	
@@ -85,7 +89,8 @@
 				</div>
 					
 			</section>
-			<!-- Section 2 -->
+
+		<!-- Section 2 -->
 			<section class="d-flex">
 				<div id="Hebergements">
 					<h2 class="h2Hebmar">Hébergements à Marseille</h2>
@@ -217,7 +222,7 @@
 				</div>
 			</section>
 
-			<!-- Section 3 -->
+		<!-- Section 3 -->
 			<section>
 				<h2 id="Activités">Activités à Marseille</h2>
 				<div class="activites">
@@ -245,7 +250,7 @@
 							</div>
 						</a>
 						<a href="#">
-							<div class="activites-cards" id="ilesdufrioul">
+							<div class="activites-cards" id="margin-top">
 								<div>
 									<img class="actimg3" src="assets/DWP2-RessourcesBookiFR/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="îles du Frioul">
 								</div>
@@ -279,7 +284,7 @@
 							</div>
 						</a>
 						<a href="">
-							<div class="activites-cards">
+							<div class="activites-cards" id="margin-top">
 								<div>
 									<img class="actimg6" src="assets/DWP2-RessourcesBookiFR/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
 								</div>
@@ -292,6 +297,7 @@
 				</div>
 			</section>
 		</main>
+
 		<!-- Footer -->
 		<footer class="footer" >
 			<div class="footer-items">
