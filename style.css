@@ -418,14 +418,18 @@ footer a:link {
 	/* Formulaire de Recherche */
 	/* Section 1 */
 	.tt {
-		margin-left: 20px;
-		margin-top: 20px;
-		margin-bottom: 20px;/*!!!!!!!!!!!!!!*/
+		padding: 20px;
+		margin: 0px;
+	}
+	.tt h2 {
+		margin-bottom: 10px;
 	}
 	.ta {
+		padding: 0px;
+		margin: 0px;
 		position: relative;
-		top: 10px;
-		left: 10px;
+		top: 0px;
+		left: 0px;
 	}
 /* Formulaire de Recherche */
 	.formulaire {
@@ -436,7 +440,7 @@ footer a:link {
 		padding: 0px;
 		border: 1px solid #d9d9d9;
 		border-radius: 15px;
-		margin: 30px 20px;
+		margin: 20px 20px;
 	}
 	#localisation {
 		width: 225px;
@@ -468,10 +472,14 @@ footer a:link {
 	}
 
 	/* Filtres*/
+	.filtres h3 {
+		width: 100%;
+		padding-left: 20px;
+	}
 	.filtres {
 		display: flex;
 		flex-wrap: wrap;
-		padding: 10px 20px;
+		padding: 10px;
 	}
 	.filtres-bouton {
 		font-weight: bold;
@@ -480,14 +488,19 @@ footer a:link {
 		align-items: center;
 		border: 2px solid #d9d9d9;
 		border-radius: 30px;
-		margin-left: 0px;
+		margin-left: 10px;
 		margin-bottom: 15px;
 	} 
+	.filtres-bouton p {
+		font-size: 18px;
+		font-weight: bold;
+		margin: 0px 10px 0px 10px;
+	}
 
 	.icon-info-p {
 		display: flex;
 		align-items: baseline;
-		margin-left: -20px;
+		margin: 0px 0px 30px -20px;
 	}
 /* Section 2 Partie 1 Hébérgemets*/
 	.d-flex {
