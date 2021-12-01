@@ -188,16 +188,18 @@ ul li {
 }
 .container {
     display: flex;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
 .cardhebergements {
-	width: 245px;
+	width: 240px;
 	height: 200px;
 	border-radius: 20px;
 	padding: 5px;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 	margin: 31px 31px 0px 0px;
 	background-color: #FFF;
+
 }
 .cardhebergements div {
 	position: relative;
@@ -290,7 +292,7 @@ a:link {
 	border-radius: 20px 20px 0 0;
 }
 #margin-top {
-	margin-top: 35px;
+	margin-top: 30px;
 }
 /*Redimentionnement des img Activités*/
 .actimg1 {
@@ -488,17 +490,18 @@ footer a:link {
 		padding: 0px;
 	}
 	.cardhebergements {
-		width: 100%;
+		width: 300px;
 		height: 210px;
 		padding: 5px 5px 0px 5px;
 		margin: 13px 0px 0px 0px;
 	}
-	.div-h3p > h3, p {
+	.div-h3p > h3 + p {
 		line-height: 20px;
 	}
-	.div-h3p > p {
+	.div-h3p + p {
 		margin-left: 10px;
 	}
+	
 
 	/* Section 2 Partie 2 Populaires*/
 	#populaires	{
@@ -526,16 +529,10 @@ footer a:link {
 		width: 130px;
 		height: 140px;
 	}
-	.popubox > .div-h3p > h3, p {
-		margin-left: 20px;
-	}
-	.popubox > .div-h3p > i {
-		font-size: 12px;
+	.populairesh3 i {
 		position: relative;
-		left: 20px;
-		bottom: -40px;
+		font-size: 14px;
 	}
-	
 	/* Section 3 Activités à marseille */
 	#Activités {
 		margin: 20px 20px;
@@ -614,7 +611,7 @@ footer a:link {
 		flex-wrap: wrap;
 	}
 	#Hebergements {
-		order: 3;
+		order: 2;
 		width: 100%;
 		padding: 10px 10px 10px 15px;
 		margin: 30px 50px 30px 50px;
@@ -623,7 +620,7 @@ footer a:link {
 		margin-bottom: 0px;
 	}
 	.cardhebergements {
-		width: 220px;
+		width: 300px;
 		height: 200px;
 		padding: 5px;
 		margin: 20px 10px 0px 10px;
@@ -632,6 +629,11 @@ footer a:link {
 		font-size: 16px;
 		margin: 5px 10px 0px 10px;
 		line-height: 20Px;
+	}
+	.div-h3pp {
+		font-size: 16px;
+		margin: 5px 10px 0px 10px;
+		line-height: 20px;
 	}
 	#h3Aficherplus {
 		margin: 30px 0px 20px 0px;
@@ -657,8 +659,16 @@ footer a:link {
 		width: 350px;
 		height: 200px;
 	}
-	.div-h3p > p, i {
-		margin-top: 5px;
+	.populairesh3 > h3, p {
+		font-size: 20px;
+		margin: 25px 25px 25px 40px;
+		line-height: 20px;
+	}
+	.populairesh3 i {
+		position: relative;
+		left: 35px;
+		font-size: 16px;
+		margin-left: 5px;
 	}
 	.fa-chart-line {
 		position: relative;
@@ -672,24 +682,33 @@ footer a:link {
 	}
 	.activites {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
 		padding: 20px 30px 50px 30px;
 	}
 	.activites-s {
-		width: 25%;
+		width: 100%;
 		padding: 0px 20px;
+		margin-bottom: 30px;
+	}
+
+	/*redimentionnement des img*/
+	.activites-cards {
+		height: 200px;
 	}
 	.activites img {
-		object-fit: cover;
 		width: 100%;
-		border-radius: 20px 20px 0px 0px;
+	}
+	.activites-cards div > img {
+		height: 140px;
 	}
 	#margin-top {
 		margin-top: 30px;
 	}
 	.actdivh3 h3 {
-		padding: 15px 20px 20px 20px;
+		font-size: 16px;
+		padding: 15px 0px 10px 20px;
 		margin: 0px;
 	}
 
