@@ -144,11 +144,11 @@ ul li {
 	margin-left: 30px;
 } 
 .filtres-bouton:hover {
-	background-color: #DEEBFF;
-	transition-duration: 1s;
-	height: 55px;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-	border-color: #0065FC;
+	text-shadow: 0px 0px 1px black;
+	color: white;
+	background: linear-gradient(90deg ,#DEEBFF , #75aafa , #0065FC);
+	transition-duration: 3s;
+	box-shadow: 0px 0px 20px rgba(36, 74, 133, 0.5);
 }
 .filtre-icon {
 	width: 54px;
@@ -196,8 +196,10 @@ ul li {
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 	margin: 31px 31px 0px 0px;
 	background-color: #FFF;
-
 }
+.cardhebergements:hover {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}	
 .cardhebergements div {
 	position: relative;
     overflow: hidden;
@@ -233,6 +235,10 @@ ul li {
 	margin: 0px 40px 32px 40px;
 	background-color: #FFF;
 }
+.cardpopulaires:hover {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}	
+	
 .cardpopulaires img {
 	object-fit: cover;
 	width: 150px;
@@ -283,6 +289,9 @@ a:link {
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
 }
+.activites-cards:hover {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}	
 .activites img {
 	object-fit: cover;
 	width: 100%;
@@ -585,6 +594,16 @@ footer a:link {
 	ul li {
 		margin: 0px 20px;
 	}
+	.tt {
+		margin-bottom: 30px;
+	}
+	.ta {
+		padding: 0px;
+		margin: 0px;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
 	/* Formulaire de Recherche */
 	.formulaire {
 		margin: 20px 50px ;
@@ -598,6 +617,9 @@ footer a:link {
 		width: 100%;
 		margin: 0px 0px 20px 0px;
 		padding-left: 40px;
+	}
+	.filtres-bouton {
+		margin-bottom: 20px;
 	}
 	.filtres-bouton p {
 		margin: 0px 20px 0px 10px;
