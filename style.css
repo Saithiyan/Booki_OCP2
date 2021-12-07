@@ -189,7 +189,7 @@ ul li {
 	flex-wrap: wrap;
 }
 .cardhebergements {
-	width: 26%; /*width: 240px;*/
+	min-width: 240px;
 	height: auto;
 	border-radius: 20px;
 	padding: 5px;
