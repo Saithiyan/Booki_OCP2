@@ -49,6 +49,7 @@ ul li {
 .div-h3p > i {
 	position: relative;
 	left: 10px;
+	bottom: 5px;
 	font-size: 14px;
 }
 .fa-info {
@@ -210,7 +211,7 @@ ul li {
 	border-radius: 16Px 16px 0px 0px;
 }
 .div-h3p > h3, p {
-	margin: 5px 10px;
+	margin: 5px 0px 5px 10px;
 	line-height: 20Px;
 }
 #h3Aficherplus {
@@ -231,7 +232,7 @@ ul li {
 	border-radius: 20px;
 	padding: 5px;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-	margin: 0% 4% 32px 4%;
+	margin: 10px 4% 22px 4%;
 	background-color: #FFF;
 }
 .cardpopulaires:hover {
@@ -623,7 +624,10 @@ footer a:link {
 	.filtres-bouton p {
 		margin: 0px 20px 0px 10px;
 	}
-
+	/* icone */
+	.div-h3p > i {
+		bottom: 0px;
+	}
 	/* Section 2 - Partie 1: Hébéregements à Marseille*/
 	.d-flex {
 		flex-wrap: wrap;
@@ -644,7 +648,7 @@ footer a:link {
 		width: 42%;
 		height: 200px;
 		padding: 5px;
-		margin: 10px 20px;
+		margin: 15px;
 	}
 	.div-h3p > h3, p {
 		font-size: 16px;
@@ -732,7 +736,6 @@ footer a:link {
 		padding: 15px 0px 10px 20px;
 		margin: 0px;
 	}
-
 
 	/* Footer */
 	.footer {
