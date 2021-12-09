@@ -46,10 +46,15 @@ ul li {
 .grey-star {
 	color: #d8d9d8;
 }
-.div-h3p > i {
+.populairesh3{
 	position: relative;
+}
+.etoilespopu {
+	position: absolute;
 	left: 10px;
-	bottom: 5px;
+	bottom: 10px;
+}
+.div-h3p i {
 	font-size: 14px;
 }
 .fa-info {
@@ -199,7 +204,7 @@ ul li {
 }
 .cardhebergements:hover {
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-}	
+}
 .cardhebergements div {
 	position: relative;
     overflow: hidden;
@@ -211,7 +216,7 @@ ul li {
 	border-radius: 16Px 16px 0px 0px;
 }
 .div-h3p > h3, p {
-	margin: 5px 0px 5px 10px;
+	margin: 5px 0px 10px 10px;
 	line-height: 20Px;
 }
 #h3Aficherplus {
@@ -237,8 +242,7 @@ ul li {
 }
 .cardpopulaires:hover {
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-}	
-	
+}
 .cardpopulaires img {
 	object-fit: cover;
 	width: 150px;
@@ -251,6 +255,7 @@ ul li {
 .h2popu {
 	height: 30px;
 	padding-left: 35px;
+	margin-bottom: 0px;
 }
 .fa-chart-line {
 	display: flex;
@@ -507,7 +512,6 @@ footer a:link {
 	.div-h3p + p {
 		margin-left: 10px;
 	}
-	
 
 	/* Section 2 Partie 2 Populaires*/
 	#populaires	{
@@ -586,7 +590,7 @@ footer a:link {
 }
 
 /* Media-quies: Tablettes */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1057px) {
 
 	.header {
 		padding: 10px 20px;
@@ -624,10 +628,7 @@ footer a:link {
 	.filtres-bouton p {
 		margin: 0px 20px 0px 10px;
 	}
-	/* icone */
-	.div-h3p > i {
-		bottom: 0px;
-	}
+	
 	/* Section 2 - Partie 1: Hébéregements à Marseille*/
 	.d-flex {
 		flex-wrap: wrap;
